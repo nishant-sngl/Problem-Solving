@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ApiSanityTest" parallel="tests">
+    <groups>
+        <run>
+            <include name="icici_collections"/>
+        </run>
+    </groups>
+
+<!--    <parameter name="projectId" value="12"></parameter>-->
+
+    <test name="SanityTests">
+        <classes>
+            <class name="feature1.F11"/>
+        </classes>
+    </test>
+</suite>

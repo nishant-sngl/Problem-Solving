@@ -1,0 +1,9 @@
+Base/HttpCall.class
+Base/Base.class
+Base/GetCall.class
+units/feature1/request/Location.class
+units/feature1/apiCore/AddPlaceApi.class
+units/feature1/request/AddPlaceReq.class
+Base/PostCall.class
+units/feature1/response/AddPlaceResp.class
+units/feature2/apiCore/GetPlaceApi.class
